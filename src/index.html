@@ -1,13 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="root">
-      <h1>Hello world!</h1>
+      <h1>Cifrado César</h1>
+      <h2>¿Cuál será el mensaje?</h2>
+      <p><input type="text" spellcheck="false" id="m1" /></p>
+      <h2>Desplazamiento</h2>
+      <p><input type="number" id="espacio" /></p>
+      <h2>¡De la orden!</h2>
+      <p><button id="cifrar">Cifrar</button></p>
+      <p><button id="descifrar">Descifrar</button></p>
+      <h3>Resultado</h3>
+      <p><input type="text" name="" id="m2" /></p>
     </div>
     <script src="index.js" type="module"></script>
   </body>
