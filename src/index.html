@@ -4,20 +4,32 @@
     <meta charset="utf-8" />
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <div id="root">
-      <h1>Cifrado César</h1>
-      <h2>¿Cuál será el mensaje?</h2>
-      <p><input type="text" spellcheck="false" id="m1" /></p>
-      <h2>Desplazamiento</h2>
-      <p><input type="number" id="espacio" /></p>
-      <h2>¡De la orden!</h2>
-      <p><button id="cifrar">Cifrar</button></p>
-      <p><button id="descifrar">Descifrar</button></p>
-      <h3>Resultado</h3>
-      <p><input type="text" name="" id="m2" /></p>
+  <body class="fondo">
+    <div class="titulo">
+      <h1 class="title">Cifrado César</h1>
     </div>
+    <section class="contenedor">
+      <div class="julio">
+      <img class="imagen" src="/img/juliocesar.png" alt="julio césar">
+      </div>
+      <div class="cuadro">
+        <h2>¿Cuál será el mensaje?</h2>
+        <textarea spellcheck="false" id="m1" /></textarea>
+        <h2>Desplazamiento</h2>
+        <p><input type="number" id="espacio" /></p>
+        <h2>¡Da la orden!</h2>
+        <p><button class="b1" id="cifrar">Cifrar</button></p>
+        <p><button class="b2" id="descifrar">Descifrar</button></p>
+        <h3>Resultado</h3>
+        <textarea type="text" name="" id="m2"></textarea>
+       </div>
+      </section>
+      <br>
+    <footer class="footer">Desarrollado por Jimena Flores. :v</footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
