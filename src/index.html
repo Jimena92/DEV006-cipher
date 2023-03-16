@@ -4,32 +4,44 @@
     <meta charset="utf-8" />
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body class="fondo">
     <div class="titulo">
       <h1 class="title">Cifrado César</h1>
+      <p class="sub">
+        Implementando códigos de seguridad desde el siglo I a. C.
+      </p>
     </div>
     <section class="contenedor">
       <div class="julio">
-      <img class="imagen" src="/img/juliocesar.png" alt="julio césar">
+        <img class="imagen" src="/img/logocesar.png" alt="julio césar" />
+        <p class="descrip">
+          ¡Deja que la Antigua Roma potencie tu contraseña y asegúrate de que
+          nadie pueda saberla! Bueno...solo tú. ¡Ah!, casi lo olvido, también
+          puedes descifrar aquellos mensajes ocultos de tus enemigos. <br />
+          <span>¡Éxito, gladiadora!</span>
+        </p>
       </div>
       <div class="cuadro">
-        <h2>¿Cuál será el mensaje?</h2>
-        <textarea spellcheck="false" id="m1" /></textarea>
-        <h2>Desplazamiento</h2>
+        <h2>Aquí va el texto a ocultar o descubrir:</h2>
+        <textarea spellcheck="false" id="m1"></textarea>
+        <h2>No. de espacios a desplazar:</h2>
         <p><input type="number" id="espacio" /></p>
-        <h2>¡Da la orden!</h2>
+        <h2>¡Da la órden!</h2>
         <p><button class="b1" id="cifrar">Cifrar</button></p>
         <p><button class="b2" id="descifrar">Descifrar</button></p>
-        <h3>Resultado</h3>
-        <textarea type="text" name="" id="m2"></textarea>
-       </div>
-      </section>
-      <br>
-    <footer class="footer">Desarrollado por Jimena Flores. :v</footer>
+        <h2>Resultado:</h2>
+        <textarea spellcheck="false" type="text" name="" id="m2"></textarea>
+      </div>
+    </section>
+    <br />
+    <footer class="footer">Desarrollado por Jimena Flores. ∞</footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
