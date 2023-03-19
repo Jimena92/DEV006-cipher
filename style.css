@@ -1,0 +1,136 @@
+.title {
+  font-family: "Gideon Roman", cursive;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-shadow: 2px 3px rgb(189, 99, 245);
+  font-size: 60px;
+}
+
+.fondo {
+  background-color: black;
+}
+
+.titulo {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.sub {
+  color: #ff3885;
+  font-family: "Gideon Roman", cursive;
+}
+
+.intro {
+  color: rgb(255, 255, 255);
+  font-family: "Gideon Roman", cursive;
+  text-align: center;
+  padding: 10px;
+}
+
+.contenedor {
+  display: flex;
+  background-color: #000000;
+  justify-content: center;
+  border-style: double;
+  border-color: aliceblue;
+}
+
+.cuadro {
+  color: white;
+  background-color: #000000;
+  text-align: center;
+  width: 70%;
+  font-size: 15px;
+}
+
+.julio {
+  background-color: rgb(0, 0, 0);
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding: 30px 0px 45px 85px;
+  display: flex;
+  flex-direction: column;
+}
+
+.imagen {
+  justify-content: center;
+  align-items: center;
+}
+
+.descrip {
+  color: white;
+  text-align: justify;
+}
+
+span {
+  font-weight: bold;
+}
+
+.footer {
+  text-align: center;
+  font-family: "Gideon Roman", cursive;
+  font-size: 15px;
+  color: #dac9df;
+}
+
+#m1 {
+  background-color: #d2b202;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+  justify-content: center;
+}
+
+#espacio {
+  background-color: #eeca06;
+  border-radius: 3px;
+  text-align: center;
+  width: 100px;
+  padding: 10px;
+}
+
+#m2 {
+  background-color: #f8e44b;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.b1 {
+  width: 40%;
+  margin: auto;
+  padding: 8px;
+  background-color: #ab49cc;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 15px;
+  width: 120px;
+}
+
+.b1:hover {
+  background: #7f00b2;
+}
+
+.b2 {
+  width: 40%;
+  margin: auto;
+  padding: 8px;
+  background-color: #ff3885;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 15px;
+  width: 120px;
+}
+
+.b2:hover {
+  background: #ff0077;
+}
+
+.resultado {
+  text-align: center;
+}
