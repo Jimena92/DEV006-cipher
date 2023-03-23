@@ -135,10 +135,13 @@ h2 {
   text-align: center;
 }
 
+/* La regla @media para aplicar estilos a un conjunto de elementos HTML solo si la pantalla tiene una anchura mínima de 768px. El valor de 768px haya sido elegido porque es un tamaño de pantalla típico para tabletas y dispositivos móviles en orientación horizontal. */
+
 @media (min-width: 768px) {
   .contenedor {
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   }
   .julio {
     width: 48%;
